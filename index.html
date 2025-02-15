@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codecraze 2.0 | Converges'25</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: "Press Start 2P", serif;
+        }
+
+        body{
+            background-color: #000000;
+            padding-top: 20px;
+        }
+
+        h1, h2, h3, h4, h5, h6, p, li{
+            line-height: 25px;
+        }
+
+        .college_advertise{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #000000;
+            text-align: center;
+            
+        }
+
+        .college_advertise_container{
+            text-align: center;
+        }
+
+
+        .clg_logo{
+            width: 60%;
+        }
+
+        .converges_logo{
+            width: 70%;
+        }
+
+        .unstop_logo{
+            width: 30%;
+        }
+
+
+        .main_banner{
+            width: 100%;
+            text-align: center;
+            padding-top: 20px;
+        }
+
+        .main_banner img{
+            width: 60%;
+            margin: auto;
+        }
+
+        .organisers_logo{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 100%;
+            padding-top: 20px;
+        }
+
+        .organisers_logo .fetch_ai{
+            width: 50%;
+        }
+
+        .organisers_logo .gdg{
+            width: 80%;
+        }
+
+        .event_logo{
+            width: 100%;
+            
+        }
+
+        .phases {
+            text-align: center;
+            width: 90%;
+            margin: auto;
+            padding-top: 40px;
+        }
+
+        .phases h3{
+            color: red;
+        }
+
+        .card{
+            border: 2px solid #ffffff;
+            padding: 20px;
+            color: #ffffff;
+            text-align: left;
+            margin-top: 20px;
+        }
+
+        .card h4{
+            color: #fee300;
+            font-size: 15px;
+        }
+
+        .card h5{
+            
+            font-size: 25px;
+            font-family: "VT323", serif;
+        }
+
+        .card .bold{
+            color: #7f91bf;
+            font-family: "VT323", serif;
+        }
+
+        .card ul{
+            margin-left: 30px;
+            
+        }
+
+        .card ul li{
+            font-family: "VT323", serif;
+            font-size: 23px;
+        }
+
+        @media screen and (max-width: 500px) {
+            .clg_logo{
+                width: 80%;
+            }
+    
+            .converges_logo{
+                width: 90%;
+            }
+    
+            .unstop_logo{
+                width: 50%;
+            }
+
+            .main_banner img{
+            width: 80%;
+            margin: auto;
+        }
+        }
+
+    
+        
+
+    </style>
+</head>
+<body>
+
+    <section class="wrapper">
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
+</section>
+
+
+
+    <div class="college_advertise">
+        <div class="college_advertise_container">
+            <img src="./images/1.png" class="clg_logo">
+        </div>
+        <div class="college_advertise_container">
+            <img src="./images/2.png" class="converges_logo"> 
+        </div>
+        <div class="college_advertise_container">
+            <img src="./images/3.png" class="unstop_logo">
+        </div>
+    </div>
+
+
+
+    <div class="main_banner">
+        <div class="organisers_logo">
+            <div class="organisers_logo_container">
+                <img src="./images/5.png" class="fetch_ai">
+            </div>
+            <div class="organisers_logo_container">
+                <img src="./images/6.png" class="gdg">
+            </div>
+        </div>
+        <img src="./images/4.png" alt="">
+        <img src="./images/7.png" class="event_logo">
+    </div>
+
+
+
+    <div class="phases">
+        <h3>Phases</h3>
+
+        <div class="card">
+            <h4>1. Online Elimination Round</h4>
+            <br />
+            <h5>February 12 - February 23, 2025</h5>
+            <br />
+            <ul>
+                <li>Teams can <span class="bold">choose from provided problem statements</span> or <span class="bold">submit their own</span>, provided it is moderate and aligns with the <span class="bold">societal and moral impact</span> theme.</li>
+                <li>Self-proposed problem statements will go through a <span class="bold">screening process</span>.</li>
+                <li>Teams will be notified via email if rejected within <span class="bold">2 days of registration</span>. If no email is received, the statement is <span class="bold">considered accepted</span>.</li>
+                <li>Teams must submit an <span class="bold">idea presentation (PPT)</span>. <span class="bold">No working prototype is required</span>.</li>
+                <li><span class="bold">Results Announcement: February 25, 2025.</span></li>
+            </ul>
+            
+        </div>
+
+
+
+        <div class="card">
+            <h4>2. Offline Hackathon</h4>
+            <br />
+            <h5>February 27-28, 2025</h5>
+            <br />
+            <ul>
+                <li>The <span class="bold">top 40 teams</span> from Phase 1 will compete.</li>
+                <li>Teams must <span class="bold">build a prototype from scratch</span> at the venue.</li>
+                <li><span class="bold">Use of prebuilt code will result in disqualification</span>.</li>
+                <li><span class="bold">AI tools are allowed</span>, but prebuilt solutions are prohibited.</li>
+                <li><span class="bold">Prototype Requirement:</span> 40-50% working prototype.</li>
+            </ul>
+            
+            
+        </div>
+    </div>
+</body>
+</html>
